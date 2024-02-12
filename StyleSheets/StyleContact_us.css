@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.contact_dt{
+	display: flex;
+}
+
+.contact_dt img{
+	 margin-left : 120px;
+}
+
+#ContactPara{
+	color: teal;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+
+.ctFoter{
+	margin-top: 28px;
+}

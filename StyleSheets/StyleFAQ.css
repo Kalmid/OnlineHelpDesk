@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.faq_pg{
+	margin-top: 5.1%;
+	background-color: lightyellow;
+	margin-right: 23.3%;
+}
+#Header{
+	font-family: 'Brush Script MT', cursive;
+	font-size: 35px;
+
+#faqQst{
+	font-family: Copperplate, Papyrus, fantasy;
+}
+
+#faqPara{
+	color: teal;
+}
+
+#faqQst a:hover{
+	color:red;
+	cursor: pointer;
+}
+
+.foter{
+	margin-top: 100000px;
+}

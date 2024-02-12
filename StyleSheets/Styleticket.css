@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+
+.ticket{
+	background-color: lightyellow;
+	margin-right: 23%;
+	margin-top: 5%;
+}
+#ticektHeader{
+	font-family: 'Times new romen';
+	font-size: 35px;
+        font-align:left;
+       
+}
+table, td, th{
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+  padding: 35px;
+  align : center;
+}
+
+th {
+  background-color: darkgray;
+  color: white;
+}
+
+td {
+  background:white;
+}
+
+#ticketQst{
+	font-family: Copperplate, Papyrus, fantasy;
+}
+
+#ticketPara{
+	color: teal;
+}
+
+.scroll{
+  margin:4px, 4px;
+  padding:4px;
+  width: 550px;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}

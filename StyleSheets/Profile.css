@@ -1,0 +1,284 @@
+body {
+	background-image:url("../Background_image/Back_image.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.header{
+	background-color: white;
+	display: flex;
+}
+
+.header img{
+	margin-right: 400px;
+}
+
+h1{
+	font-family: cursive;
+	color: darkgray;
+	font-size: 45px;
+}
+
+h2{
+	margin-left: 40px;
+}
+
+h3{
+	font-family: arial;
+	color: black;
+	font-size: 20px;
+}	
+
+input[type=text]{
+  width: 80%;
+  margin-left:30px;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius:10px;
+  border-color:black;
+}
+
+input[type=button]{
+  width: 15%;
+  margin-left:30px;
+  margin-bottom:5px;
+  padding: 3px 3px;
+  
+}
+
+input[type=tel]{
+  width: 80%;
+  margin-left:30px;
+  margin-bottom:5px;
+  padding: 10px 10px;
+  border-radius:10px;
+  
+}
+
+label{
+	font-family:verdana;
+	margin-left:10px;
+	
+}
+	
+
+.drag-area{
+  border: 2px dashed #fff; 
+  margin-left: 80px;
+  margin-bottom:15px;
+  height: 200px;
+  width: 600px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.drag-area.active{
+  border: 2px solid #fff;
+  
+}
+
+.drag-area header{
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+ 
+}
+.drag-area span{
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+   justify-content: space-between;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+	
+#logoutbutton{
+	margin-left: 1240px;
+}
+
+.nav{
+	color: red;
+	padding: 10px;
+	text-decoration: none;
+	background-color: black;
+}
+.nav:hover{
+	background-color: #555;
+	color: white;
+}
+
+.nav:visited{
+	background-color: #555;
+}
+
+.intro{
+	background-color: lightblue;
+	margin-right: 450px;
+	margin-left:100px;
+}
+
+.intro2{
+	background-color: lightblue;
+
+}
+
+.vl {
+	border-left: 6px solid white;
+	height: 572px;
+	margin-left: 80px;
+	position: absolute;
+	left: 76.5%;
+	right: 8px;
+	margin-left:3px;
+	top: 154px;
+}
+
+.adres{
+	display: flex;
+	color: purple;
+}
+
+#adress{
+	margin-right: 60px;
+	margin-left: 31px;
+	
+}
+
+#logbutton{
+	width: 100px;
+	height: 25px;
+	border: none;
+	color: blue;
+	background-color: white;
+	border-radius: 4px;
+	font-size: 13px;
+	outline: none;
+	
+}
+
+#logbutton:hover{
+	box-shadow: insert 300px 0 0 0 #f9e506;
+	cursor: pointer;
+	color: red;
+}
+
+/* Month header */
+.month {
+	padding: 70px 25px;
+	width: 83%;
+	background: #1a40bc;
+	text-align: center;
+	border-radius: 5px;
+}
+
+/* Month list */
+.month ul {
+	margin: 0;
+	padding: 0;
+}
+
+.month ul li {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+	float: left;
+	padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+	float: right;
+	padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+	margin: 0;
+	padding: 15px 0;
+	background-color:#ddd;
+}
+
+.weekdays li {
+	display: inline-block;
+	width: 13%;
+	color: #666;
+	text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+	padding: 10px 0;
+	background: #eee;
+	margin: 0;
+}
+
+.days li {
+	list-style-type: none;
+	display: inline-block;
+	width: 13%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size:12px;
+	color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+	padding: 5px;
+	background: #1a53bc;
+	color: white !important
+}
+
+
+.middle{
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+
+.navigation{
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+
+.bar{
+	width: 50px;
+	height: 10px;
+	border: 2px solid black;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.bar:hover{
+	background: white;
+}
